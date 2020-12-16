@@ -1,0 +1,10 @@
+#!/bin/sh
+
+case "$1" in
+pre)
+	s0ixtester measure
+	;;
+post)
+	s0ixtester measure
+	;;
+esac
